@@ -1,0 +1,33 @@
+*{
+    margin:0; padding:0
+}
+table{
+    width: 90%;
+    margin:auto ;
+margin-top: 10%;
+}
+table, th, td{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px 0px;
+}
+th{
+    color: skyblue;
+    font-size: 37px;
+    background-color: rgb(36, 70,100)
+}
+td{
+    color: white;
+    font-size: 22px;
+}
+tr:nth-last-child(odd){
+    background-color: blue;
+}
+tr:nth-last-child(even){
+    background-color: skyblue;
+}
+.best{
+    width: 10px;
+}
